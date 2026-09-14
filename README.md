@@ -221,56 +221,6 @@ The fully augmented SVM achieved:
 
 After robust training, the YOLO models showed improved performance on augmented test data.
 
-## How to Run
-
-### 1. Clone the Repository
-
-```bash
-git clone <repository-url>
-cd <project-folder>
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Prepare the Dataset
-
-Place the dataset according to the required directory structure.
-
-### 4. Run Preprocessing
-
-Run the required preprocessing and augmentation scripts.
-
-### 5. Train the Model
-
-Select and train the required model:
-
-- CNN
-- SVM
-- YOLO
-
-### 6. Run Testing
-
-Run the testing scripts using:
-
-- Clean test dataset
-- Augmented test dataset
-
-### 7. Review Results
-
-The generated results may include:
-
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- mAP50
-- Confusion matrices
-- Prediction samples
-
 ---
 
 ## Team Members
